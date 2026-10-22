@@ -70,9 +70,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -139,15 +139,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KnightParts_0
+      name: Hand
       rect:
         serializedVersion: 2
         x: 16
         y: 391
         width: 50
         height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3921254, y: 0.9441905}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,15 +161,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_1
+      name: Sword
       rect:
         serializedVersion: 2
         x: 270
         y: 415
         width: 227
         height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.17685097, y: 0.5129968}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,15 +183,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_2
+      name: ForeArm
       rect:
         serializedVersion: 2
         x: 16
         y: 310
         width: 39
         height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.55532056, y: 0.71887606}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,15 +205,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_3
+      name: Head
       rect:
         serializedVersion: 2
         x: 251
         y: 148
         width: 184
         height: 245
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7520991, y: 0.028873116}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,15 +227,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_4
+      name: UpperArm
       rect:
         serializedVersion: 2
         x: 20
         y: 210
         width: 43
         height: 78
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.47491312, y: 0.9149029}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,15 +249,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_5
+      name: Thigh
       rect:
         serializedVersion: 2
         x: 24
         y: 142
         width: 39
         height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.44468004, y: 0.8660039}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,15 +271,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_6
+      name: Torso
       rect:
         serializedVersion: 2
         x: 116
         y: 29
         width: 119
         height: 164
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5271953, y: 0.046136297}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,15 +293,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_7
+      name: Shin
       rect:
         serializedVersion: 2
         x: 14
         y: 68
         width: 55
         height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.42154583, y: 0.91951287}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -315,15 +315,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightParts_8
+      name: Foot
       rect:
         serializedVersion: 2
         x: 6
         y: 13
         width: 60
         height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.53595835, y: 0.8390344}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1896,15 +1896,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      KnightParts_0: -6425154718341053953
-      KnightParts_1: 1277228395416129899
-      KnightParts_2: 2692055832475232971
-      KnightParts_3: 3561500032516406903
-      KnightParts_4: -5696939170124730895
-      KnightParts_5: -6994555972678076988
-      KnightParts_6: 76464921866925032
-      KnightParts_7: -8020213386278367901
-      KnightParts_8: -8297442414693811131
+      Foot: -8297442414693811131
+      ForeArm: 2692055832475232971
+      Hand: -6425154718341053953
+      Head: 3561500032516406903
+      Shin: -8020213386278367901
+      Sword: 1277228395416129899
+      Thigh: -6994555972678076988
+      Torso: 76464921866925032
+      UpperArm: -5696939170124730895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
