@@ -28,7 +28,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.1
-        value: {x: 0, y: 0, z: 20}
+        value: {x: 0, y: 0, z: 50}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -37,9 +37,9 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.2
-        value: {x: 0, y: 0, z: 10}
-        inSlope: {x: 0, y: 0, z: -66.666664}
-        outSlope: {x: 0, y: 0, z: -66.666664}
+        value: {x: 0, y: 0, z: 30}
+        inSlope: {x: 0, y: 0, z: -166.66666}
+        outSlope: {x: 0, y: 0, z: -166.66666}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -317,7 +317,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.1
-        value: 20
+        value: 50
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -326,9 +326,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.2
-        value: 10
-        inSlope: -66.666664
-        outSlope: -66.666664
+        value: 30
+        inSlope: -166.66666
+        outSlope: -166.66666
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -646,8 +646,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Hip/Torso/UpperArm_R
+    attribute: m_LocalEulerAngles.z
+    path: Hip/Torso
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -659,7 +659,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Hip/Torso/UpperArm_R
+    path: Hip/Torso
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -670,8 +670,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Hip/Torso/UpperArm_R
+    attribute: m_LocalEulerAngles.x
+    path: Hip/Torso
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -719,7 +719,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Hip/Torso
+    path: Hip/Torso/UpperArm_R
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -731,7 +731,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Hip/Torso
+    path: Hip/Torso/UpperArm_R
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -743,7 +743,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Hip/Torso
+    path: Hip/Torso/UpperArm_R
     classID: 4
     script: {fileID: 0}
     flags: 0
